@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Island+Moments&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Marck+Script&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&family=Rajdhani:wght@300;400;500;600;700&family=Rakkas&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+        
+         
+    <div class="form">
+        <h1>REGISTRATION FORM</h1>
+        <form>
+            <label for="username"><b>Name</b></label>
+            <input id="username" type="text" placeholder="Enter your name" required><br><br>
+    
+            <label for="address"><b>Address</b></label>
+            <textarea id="address" cols="20" rows="4" required></textarea><br><br>
+    
+            <label for="dobirth"><b>Date Of Birth</b></label>
+            <input id="dobirth" type="date" required><br><br>
+    
+            <label for="gender"><b>Gender</b></label><br>
+            <input id="male" name="gender" type="radio" required>
+            <label for="male">Male</label>
+            <input id="female" name="gender" type="radio" required>
+            <label for="female">Female</label>
+            <input id="others" name="gender" type="radio" required>
+            <label for="others">Others</label><br><br>
+    
+            <label for="attempts"><b>No of attempts</b></label>
+            <input id="attempts" type="number" min="1" max="5" required><br><br>
+    
+            <label for="document"><b>Upload your document</b></label>
+            <input id="document" type="file" required><br><br>
+    
+            <label for="place"><b>Choose your place</b></label>
+            <select id="place" required>
+                
+                <option value="Kannur">Kannur</option>
+                <option value="Ernakulam">Ernakulam</option>
+                <option value="Kasargod">Kasargod</option>
+                <option value="Wayanad">Wayanad</option>
+                <option value="Kozhikode">Kozhikode</option>
+            </select><br><br>
+    
+            <input id="terms" type="checkbox" required>
+            <label for="terms">I accept the terms and conditions</label><br><br>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    </body>
+    </html>
+    
+</body>
+</html>
